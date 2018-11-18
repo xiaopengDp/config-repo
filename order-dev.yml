@@ -1,5 +1,5 @@
 env:
- dev244
+ dev
 gir:
  name: tom
  age: 24
