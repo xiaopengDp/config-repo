@@ -2,7 +2,7 @@ env:
  dev
 gir:
  name: tom
- age: 65
+ age: 33
 spring:
   application:
     name: order
