@@ -1,8 +1,8 @@
 env:
  dev2
 gir:
- name: tom1
- age: 231
+ name: tom
+ age: 23
 spring:
   application:
     name: order
