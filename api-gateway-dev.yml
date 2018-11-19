@@ -22,4 +22,7 @@ zuul:
     myOrder1:
       serviceId: order
       path: /myOrder/**
+    myOO:
+      serviceId: order
+      path: /myOO/**
   sensitive-headers:
