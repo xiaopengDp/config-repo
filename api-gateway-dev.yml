@@ -23,5 +23,3 @@ zuul:
       serviceId: order
       path: /myOrder/**
   sensitive-headers:
-  ignored-patterns:
-    - /myOrder/**
