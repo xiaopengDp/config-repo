@@ -17,3 +17,11 @@ spring:
 girl: 20
 server:
   port: 8085
+zuul:
+  routes:
+    myOrder:
+      serviceId: order
+      path: /myOrder/**
+  sensitive-headers:
+  ignored-patterns:
+    - /myOrder/**
