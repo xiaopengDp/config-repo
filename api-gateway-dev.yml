@@ -25,4 +25,7 @@ zuul:
     myOO:
       serviceId: order
       path: /myOO/**
+    myP:
+      serviceId: product
+      path: /myP/**
   sensitive-headers:
