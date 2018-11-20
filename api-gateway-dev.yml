@@ -29,3 +29,5 @@ zuul:
       serviceId: product
       path: /myP/**
   sensitive-headers:
+  ignored-patterns: 
+    - /**/product/**
