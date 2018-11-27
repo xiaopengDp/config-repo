@@ -15,5 +15,3 @@ spring:
   jpa:
     show-sql: true
 girl: 22
-server:
-  port: 8080
