@@ -17,17 +17,4 @@ spring:
 girl: 20
 server:
   port: 8085
-zuul:
-  routes:
-    myOrder1:
-      serviceId: order
-      path: /myOrder/**
-    myOO:
-      serviceId: order
-      path: /myOO/**
-    myP:
-      serviceId: product
-      path: /myP/**
-  sensitive-headers:
-  ignored-patterns: 
-    - /**/product/**
+
